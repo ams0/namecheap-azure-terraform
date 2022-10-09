@@ -17,7 +17,7 @@ Copy `zones.auto.tfvars-example` to `zones.auto.tfvars` and edit its content, ad
 
 Plan and apply as usual; it will create an Azure DNS zone for every entry in the `zones` variable, and update the Namecheap domain to point to the nameservers registered for that zone in Azure.
 
-###Google Mail domain alias registration
+### Google Mail domain alias registration
 
 When adding the domain to your Google Workspace, use the following command or the portal to add a TXT entry to let google verify the domain. 
 
