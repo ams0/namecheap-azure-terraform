@@ -35,3 +35,4 @@ terraform.rc
 zones.auto.tfvars
 .terraform.lock.hcl
 .DS_Store
+ip.tf
